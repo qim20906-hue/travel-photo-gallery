@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>我的旅行手记</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f7f5f0;color:#292a27;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}
+header{padding:48px 7% 30px}
+.eyebrow{font-size:11px;letter-spacing:4px;color:#8a806e}
+h1{font-family:Georgia,serif;font-weight:400;font-size:clamp(38px,8vw,76px);margin:18px 0}
+.intro{color:#77776e;line-height:1.8}
+main{padding:10px 7% 60px}
+.section-title{font-family:Georgia,serif;font-size:25px;font-weight:400;margin:30px 0 22px}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.photo{margin:0}
+.photo img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block;background:#e5e0d6}
+.photo figcaption{padding:10px 0 18px;font-size:13px}
+.photo span{display:block;color:#888;font-size:11px;margin-top:5px}
+.note{border-top:1px solid #ddd7cc;padding-top:24px;margin-top:35px;color:#77776e;line-height:1.9}
+footer{text-align:center;padding:25px;color:#8a806e;font-size:12px;letter-spacing:2px}
+@media(min-width:700px){.gallery{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}header,main{padding-left:10%;padding-right:10%}}
+</style>
+</head>
+<body>
+<header>
+<div class="eyebrow">TRAVEL · PHOTOGRAPHY · MEMORIES</div>
+<h1>我的旅行手记</h1>
+<p class="intro">把走过的路、遇见的风景，<br>收藏成自己的小小旅行杂志。</p>
+</header>
+<main>
+<h2 class="section-title">旅途中的风景 / Selected Moments</h2>
+<div class="gallery">
+<figure class="photo">
+<img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=85" alt="日本传统街道">
+<figcaption>街角的日常<span>JAPAN · 01</span></figcaption>
+</figure>
+<figure class="photo">
+<img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=85" alt="湖泊与山">
+<figcaption>山与湖的宁静<span>LANDSCAPE · 02</span></figcaption>
+</figure>
+<figure class="photo">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=85" alt="辽阔的自然风景">
+<figcaption>远方的空气<span>JOURNEY · 03</span></figcaption>
+</figure>
+<figure class="photo">
+<img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=900&q=85" alt="意大利海边小镇">
+<figcaption>海边慢慢走<span>ITALY · 04</span></figcaption>
+</figure>
+<figure class="photo">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=85" alt="山间湖泊">
+<figcaption>住进风景里<span>NATURE · 05</span></figcaption>
+</figure>
+<figure class="photo">
+<img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=85" alt="夜晚星空">
+<figcaption>抬头看见星光<span>MEMORIES · 06</span></figcaption>
+</figure>
+</div>
+<div class="note">每一次出发，都是一次重新发现世界。<br>这里记录我的旅程，也收藏那些不想忘记的瞬间。</div>
+</main>
+<footer>MY TRAVEL JOURNAL · 旅行仍在继续</footer>
+</body>
+</html>
